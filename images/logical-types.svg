@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:70.3636px;}
+	.st3{font-size:40.2704px;}
+	.st4{stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<rect x="712.98" y="240" class="st0" width="536.52" height="131.6"/>
+<text transform="matrix(0.6074 0 0 1 768.7573 325.5679)" class="st1 st2">LOGICAL REASONING</text>
+<g>
+	<g>
+		<rect x="306" y="635.91" class="st0" width="293.52" height="204.09"/>
+		<text transform="matrix(0.9511 8.017604e-03 -7.350000e-03 1 373.2927 726.7501)"><tspan x="0" y="0" class="st1 st3">Deductive</tspan><tspan x="0" y="48.32" class="st1 st3">Reasoning</tspan></text>
+	</g>
+	<g>
+		<rect x="812.9" y="635.91" class="st0" width="293.52" height="204.09"/>
+		<text transform="matrix(0.9511 8.017604e-03 -7.350000e-03 1 880.1922 726.7479)"><tspan x="0" y="0" class="st1 st3">Inductive</tspan><tspan x="0" y="48.32" class="st1 st3">Reasoning</tspan></text>
+	</g>
+	<g>
+		<rect x="1311.48" y="635.91" class="st0" width="293.52" height="204.09"/>
+		<text transform="matrix(0.9511 8.017604e-03 -7.350000e-03 1 1378.7404 726.7446)"><tspan x="0" y="0" class="st1 st3">Abductive</tspan><tspan x="0" y="48.32" class="st1 st3">Reasoning</tspan></text>
+	</g>
+</g>
+<line class="st4" x1="951.86" y1="371.04" x2="951.86" y2="635.35"/>
+<line class="st5" x1="1458.24" y1="634.8" x2="1458.24" y2="495.39"/>
+<line class="st5" x1="952.38" y1="495.39" x2="1458.24" y2="495.39"/>
+<line class="st5" x1="443.39" y1="635.91" x2="443.39" y2="496.51"/>
+<line class="st5" x1="950.3" y1="495.39" x2="444.44" y2="495.39"/>
+</svg>

@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 40px 40px 0px 40px;
+    background: #f1f1f1;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+  /* Header/Blog Title */
+.header {
+    background-image: url("images/header.svg");
+    background-size: contain;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.blog-header{
+    width: 100%;
+}
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.bio #profile{
+    border-radius: 50%;
+    padding: 10px 22px;
+    width: 73%;
+}
+
+.bio .hr-line{
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 65%;
+}
+
+.bio h5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+  
+  /* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.rightcolumn #popular-posts{
+    display: none;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.leftcolumn .content-images{
+    padding: 20px;
+}
+
+.leftcolumn .logical, .leftcolumn .log-type {
+    width:90%;
+}
+
+  /* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+  
+  /* Add a card effect for articles */
+.card {
+    background-color: mintcream;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comment-section button{
+    background-color: lightgreen;
+    border-radius: 4px;
+    width: 110px;
+    height: 35px;  
+    border-color: darkgreen;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.comment-section .btn:hover{
+    background-color: rgb(67, 124, 67);
+}
+
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    background: #050e09;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    height: 240px;
+    color:white;
+    text-align: left;
+}
+
+.footer .align-center{
+    text-align: center;
+}
+
+.footer table{
+    margin-left: 20%;
+}
+
+.footer #cell1{
+    width: 45%;
+}
+
+.footer #cell2{
+    width: 30%;
+}
+
+.footer #cell3{
+    width: 30%;
+}
+
+.footer .button{
+    width: 100%;
+    height: 20px;
+}
+
+.footer i {
+    color: #fff;
+}
+
+.facebook{
+    padding: 20px 22.5px;
+    float: left;
+    margin-left: 2%;
+    background: #305c99;
+}
+.facebook:hover{
+    background: #021e46;
+}
+
+.twitter {
+    padding: 20px;
+    float: left;
+    margin-left: 2%;
+    background: #00cdff;
+}
+.twitter:hover{
+    background: #0b7691;
+}
+
+.linkedin {
+    padding: 20px 20.5px;
+    float: left;
+    margin-left: 2%;
+    background: #007bb6;
+}
+.linkedin:hover{
+    background: #054169;
+}
+.footer p{
+    margin: 0%;
+    padding: 0%;
+}
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
