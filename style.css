@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-  }
+}
   
   /* Add a gray background color with some padding */
 body {
     font-family: Arial;
-    padding: 40px 40px 0px 40px;
+    padding: 5px 5px 0px 5px;
     background: #f1f1f1;
     text-align: justify;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
   /* Header/Blog Title */
@@ -62,7 +62,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .leftcolumn .content-images{
@@ -70,7 +69,7 @@ body {
 }
 
 .leftcolumn .logical, .leftcolumn .log-type {
-    width:90%;
+    width: 100%;
 }
 
   /* Fake image */
@@ -92,6 +91,10 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+#comment-form{
+    width: 50%;
 }
 
 .comment-section button{
