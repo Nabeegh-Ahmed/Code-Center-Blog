@@ -13,10 +13,7 @@ body {
 
   /* Header/Blog Title */
 .header {
-    background-image: url("images/header.svg");
     background-size: contain;
-    height: 450px;
-    background-repeat: no-repeat;
     margin: 0;
     width: 100%;
 }
